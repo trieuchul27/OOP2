@@ -1,0 +1,5 @@
+-kelas abstrak hanya memberitahu aksi objek tanpa harus tahu bagaimana caranya,
+abstrak method (hanya menampilkan fungsionalitas saja)tidak punya body.
+
+-sedangkan kelas Enkapsulasi yaitu (pembungkusan)data nya supaya tidak mudah 
+dimodifikasi, 

@@ -1,15 +1,20 @@
-//Nama  : Euis Sulastri
-//Kelas : TIF W14
-class Televisi {
-	
-	public void ditonton() {
-	  System.out.println ("Televisi dapat Ditonton");
+// Encapsulation;
+ public class Televisi{
+ 	private String warna;
+ 	private String merk;
 
-	}
-}
- class Plasma extends Televisi{
- public void ditonton() {
- System.out.println ("TV Plasma dapat ditonton");
- super.ditonton();
- }
+//seter
+ 	public void setWarna(String warna){
+ 		this.warna= warna;
+ 	}
+ 	public void setMerk(String merk){
+ 		this.merk = merk;
+ 	}
+ //getter
+ 	public String getWarna(){
+ 		return warna;
+ 	}
+ 	public String getMerk(){
+ 		return merk;
+ 	}
  }
